@@ -29,5 +29,17 @@ function containsDuplicate(nums: number[]): boolean {
 }
 
 function containsDupliacateHash(nums: number[]): boolean {
-  return new Set(nums).size !== nums.length;
+  return new Set(nums).size < nums.length;
 }
+
+function containsDuplicate(nums: number[]): boolean {
+  nums.sort()
+
+  for (let i = 1; i < nums.length; i++) {
+    return true
+  }
+
+  return false
+}
+
+

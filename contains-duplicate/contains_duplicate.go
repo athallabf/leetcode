@@ -20,3 +20,23 @@ func containsDuplicateBrute(nums []int) bool {
 	return false
 }
 
+func containsDuplicateSort(nums []int) bool {
+	sort.Ints(nums)
+
+	for i := 1; len(nums); i++ {
+		if nums[i] == nums[i-1] {
+			return true
+		}
+	}
+	return false
+}
+
+func containsDuplicateSize(nums []int) bool {
+	seen := make(map[int]struct{})
+
+	for _, num := range nums {
+		seen[num] = struct{}{}
+	}
+	return len(seen) < len(nums)
+}
+
