@@ -1,22 +1,4 @@
-/* time limit exceeded
-function containsDuplicate(nums: number[]): boolean {
-  const n: number = nums.length;
-  for (let i: number = 0; i < n - 1; i++) {
-    for (let j: number = i + 1; j < n; j++) {
-      if (nums[i] === nums[j]) {
-        console.log(true);
-        return true;
-      }
-    }
-  }
-  console.log(false);
-  return false;
-}
-
-containsDuplicate([1, 2, 3, 4, 3]);
- **/
-
-function containsDuplicate(nums: number[]): boolean {
+export function containsDuplicate(nums: number[]): boolean {
   const set = new Set();
 
   for (const num of nums) {
@@ -28,18 +10,19 @@ function containsDuplicate(nums: number[]): boolean {
   return false;
 }
 
-function containsDupliacateHash(nums: number[]): boolean {
+// Alternative approach: one-liner using Set size comparison
+export function containsDuplicateOneLine(nums: number[]): boolean {
   return new Set(nums).size < nums.length;
 }
 
-function containsDuplicate(nums: number[]): boolean {
-  nums.sort()
-
+// Alternative approach: sorting (modifies input array)
+export function containsDuplicateSort(nums: number[]): boolean {
+  nums.sort((a, b) => a - b); // Important: numeric sort
+  
   for (let i = 1; i < nums.length; i++) {
-    return true
+    if (nums[i] === nums[i - 1]) {
+      return true;
+    }
   }
-
-  return false
+  return false;
 }
-
-
