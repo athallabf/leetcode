@@ -27,6 +27,12 @@ Solutions pasted from LeetCode are anchors—not the primary artifact. The real 
   - "How would you explain this to a peer?"
 - I will help you refine your notes and tests
 - I will track your pattern recognition over time
+- I will ALWAYS read your NOTES.md after you write it and improve it if needed:
+  - Keep your raw thoughts exactly as you wrote them
+  - Add cleaned-up version alongside if needed
+  - Add sections like Key Insights, Edge Cases, Mistakes if missing
+  - Fix English if awkward (but keep your meaning)
+  - Add insights you might have missed
 
 ## Solution File Structure (After Pasting from LeetCode)
 
@@ -48,35 +54,29 @@ problem-name/
 ## Pattern
 [What category is this? Be specific: Hash Map frequency counting? Two-pointer variant? etc.]
 
-## Intuition
-[In your own words: Why does this approach work? What's the core insight?]
+## Raw Thoughts (Unfiltered)
+[Write your thoughts exactly as they come - typos, incomplete sentences, messy notes. This captures your real thinking process.]
 
-## Approaches You Considered
+## Thoughts (Cleaned)
+[Your thoughts rewritten with proper English - still your ideas, just polished. This is what you'd show a teammate.]
 
-### Approach 1: [What you actually did]
-- Time: O(x)
-- Space: O(x)
-- Where I got stuck: [If applicable]
-- Tradeoff: [Why choose this over alternatives?]
+## Key Insights (After Reflection)
+- [The one thing that made this problem click]
+- [What you learned from mistakes]
+- [Performance improvements found]
 
-### Approach 2: [Alternative you considered or should have]
-- Time: O(x)
-- Space: O(x)
-- Tradeoff: [Why didn't you pick this? Or when would you?]
-
-## Key Insight
-[The one thing that made this problem click—or what you missed initially]
-
-## Edge Cases You Tested
+## Edge Cases Tested
 - [Specific inputs you tried that revealed flaws or confirmed correctness]
 - [What made you add those test cases?]
 
-## Similar Problems You've Seen
+## Mistakes Made
+- [What wrong assumption did you make?]
+- [What bug did you introduce?]
+- [What would you warn future-you about?]
+
+## Similar Problems
 - [Other LeetCode problems where you used this same pattern]
 - [How this connects to previous problems]
-
-## Mistakes I Made
-[Be specific: What wrong assumption did you make? What bug did you introduce? What did it teach you?]
 ```
 
 ## Weekly Reflection Process
@@ -101,3 +101,22 @@ When you paste from LeetCode, clean up:
 - `PATTERNS.md`: Running list of patterns you've encountered, with problem counts
 - `PROGRESS.md`: Problems solved per week, difficulty, confidence rating, pattern tags
 - `MISTAKES.md`: Common errors you're working to eliminate (updated weekly)
+
+## English Writing Practice
+
+Writing NOTES.md in English serves double purpose:
+1. **Reinforce learning** - explaining concepts solidifies understanding
+2. **Improve English** - practice technical writing in a foreign language
+
+### Writing Guidelines
+- Don't worry about perfect grammar - clarity first
+- Write in full sentences when possible
+- Use proper capitalization (start sentences with capital letters)
+- I will point out awkward phrasing and suggest improvements
+- This is a habit to build - consistency matters more than perfection
+
+### My Commitment to You
+I will always read your NOTES.md in context of your learning journey. I will:
+- Point out unclear parts and ask for clarification
+- Suggest better ways to express your thoughts
+- Celebrate your insights in my responses
