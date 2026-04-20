@@ -7,7 +7,7 @@ Track your weekly progress, difficulty distribution, and confidence levels.
 | Week | Problems Solved | Difficulty Breakdown | Patterns Practiced | Confidence (1-5) | Notes |
 |------|----------------|----------------------|-------------------|------------------|-------|
 | 2026-W14 | 0 | 0E, 0M, 0H | - | - | Starting baseline |
-| 2026-W15 | 1 | 1E, 0M, 0H | Hash Map | 5 | Established reflection workflow |
+| 2026-W15 | 2 | 2E, 0M, 0H | Hash Map, Two Pointers | 5 | Added Remove Duplicates problem, mastering two-pointers pattern |
 
 ## Difficulty Distribution Goal
 Gradually increase challenge while maintaining accuracy:
@@ -35,6 +35,17 @@ When you solve a problem, add it here:
 - Mistakes: [What you got wrong initially]
 - Confidence: 1-5 (how well you understand it now)
 - Links: [To your NOTES.md]
+```
+
+### Remove Duplicates from Sorted Array - LeetCode #26
+- Date: 2026-04-20
+- Difficulty: Easy
+- Pattern: Two Pointers (in-place modification)
+- Approach: Slow/fast pointers where slow tracks unique position, fast scans; compare nums[fast] with nums[slow-1] to detect new uniques
+- Time/Space: O(n) / O(1)
+- Mistakes: Compared with nums[slow] instead of nums[slow-1]; returned nums.length instead of slow; forgot empty array edge case
+- Confidence: 4
+- Links: ./problems/two-pointers/0026-remove-duplicates-from-sorted-array/NOTES.md
 ```
 
 ## Example Entry

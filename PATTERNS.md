@@ -11,6 +11,7 @@ Track which patterns you've encountered and how many times. Aim for 3+ exposures
 - [ ] Product of Array Except Self
 
 ## Two Pointers
+- [x] Remove Duplicates from Sorted Array
 - [ ] Valid Palindrome
 - [ ] Two Sum II (sorted array input)
 - [ ] 3Sum
